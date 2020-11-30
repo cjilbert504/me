@@ -1,0 +1,76 @@
+$body-background: #eee299;
+$body-color: #444;
+
+
+
+// Stock bridgetown styles
+body {
+  background: $body-background;
+  color: $body-color;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, nav, footer {
+  text-align: center;
+}
+
+main {
+  margin: 4rem auto;
+  max-width: 60rem;
+}
+
+
+
+// Utility styles
+.container {
+  max-width: 660px;
+  margin: auto;
+  text-align: center;
+}
+
+
+
+// Navbar styles
+nav a {
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0px 10px;
+}
+
+nav a:hover {
+  background-color: #e5b84c;
+}
+
+nav a:visited {
+  color: #444;
+}
+
+
+
+// Home page styles
+#main-img-me {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+
+
+
+// Posts index styles
+#posts-list {
+  list-style: none;
+  padding: 0;
+}
+
+#posts-list li a {
+  text-decoration: none;
+  line-height: 1.8em;
+}
+
+#posts-list li a:hover {
+  color: #e5b84c;
+}
+
+#posts-list li a:visited {
+  color: #444;
+}
