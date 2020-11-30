@@ -3,6 +3,8 @@ $body-color: #444;
 
 
 
+
+
 // Stock bridgetown styles
 body {
   background: $body-background;
@@ -21,21 +23,25 @@ main {
 
 
 
+
+
 // Utility styles
 * {
   box-sizing: border-box;
 }
 
 .container {
-  max-width: 660px;
   margin: auto;
+  max-width: 660px;
   text-align: center;
 }
 
 .post-container {
-  max-width: 660px;
   margin: auto;
+  max-width: 660px;
 }
+
+
 
 
 
@@ -46,11 +52,11 @@ nav {
 }
 
 nav a {
-  text-decoration: none;
-  padding: 15px 20px;
-  margin: 0px 10px;
-  color: #444;
   border-radius: 0px 10px 10px 10px;
+  color: #444;
+  margin: 0px 10px;
+  padding: 15px 20px;
+  text-decoration: none;
 }
 
 nav a:hover {
@@ -65,42 +71,61 @@ nav a:visited {
 
 
 
+
+
 // Footer styles
 footer p {
   font-size: 14px;
 }
 
 footer p a {
-  text-decoration: none;
   color: #ce9a20;
+  text-decoration: none;
 }
+
+
 
 
 
 // Home page styles
 #main-img-me {
+  border-radius: 50%;
   display: block;
   margin: auto;
-  border-radius: 50%;
   opacity: 0.8;
 }
 
 
 
+
+
 // Posts index styles
 #posts-list {
+  line-height: 1.8em;
   list-style: none;
   padding: 0;
 }
 
+#posts-list li {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 40px;
+  width: 100%;
+}
+
 #posts-list li a {
-  text-decoration: none;
-  line-height: 1.8em;
   color: #444;
+  display: inline-block;
+  padding: 10px 40px;
+  text-decoration: none;
+  width: 50%;
 }
 
 #posts-list li a:hover {
-  color: #e5b84c;
+  border-bottom: #444 solid 1px;
+  border-left:  solid 1px;
+  border-radius: 0px 10px 10px 10px;
+  box-shadow: 2px 5px 0px #444;
 }
 
 #posts-list li a:visited {
