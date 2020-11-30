@@ -40,15 +40,23 @@ main {
 
 
 // Navbar styles
+nav {
+  margin-top: 20px;
+  padding-bottom: 9px;
+}
+
 nav a {
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 15px 20px;
   margin: 0px 10px;
   color: #444;
+  border-radius: 0px 10px 10px 10px;
 }
 
 nav a:hover {
-  background-color: #e5b84c;
+  border-bottom: #444 solid 1px;
+  border-left:  solid 1px;
+  box-shadow: 2px 5px 0px #444;
 }
 
 nav a:visited {
