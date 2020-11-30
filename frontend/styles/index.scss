@@ -22,6 +22,10 @@ main {
 
 
 // Utility styles
+* {
+  box-sizing: border-box;
+}
+
 .container {
   max-width: 660px;
   margin: auto;
@@ -49,6 +53,18 @@ nav a:hover {
 
 nav a:visited {
   color: #444;
+}
+
+
+
+// Footer styles
+footer p {
+  font-size: 14px;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #ce9a20;
 }
 
 
