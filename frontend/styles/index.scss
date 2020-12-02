@@ -10,6 +10,7 @@ body {
   background: $body-background;
   color: $body-color;
   font-family: Arial, Helvetica, sans-serif;
+  // height: 100vh;
 }
 
 h1, nav, footer {
@@ -83,6 +84,15 @@ nav a:visited {
 
 
 // Footer styles
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+  height: 200px;
+}
+
 footer p {
   font-size: 14px;
 }
@@ -95,6 +105,10 @@ footer p a {
 .footer-links i {
   color: #ce9a20;
   margin: 5px 15px;
+}
+
+.footer-links i:hover {
+  color: #444;
 }
 
 
